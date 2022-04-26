@@ -13,3 +13,6 @@ Following authors are credited for this version [![DOI](https://zenodo.org/badge
 6. Tassilo Reuschling - First offline code development
 7. Prof. Dr. T. Grischek - Supervisory support on contents
 
+## References
+
+- Coming up
