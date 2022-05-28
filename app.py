@@ -2,6 +2,28 @@ import streamlit as st
 from multiapp import MultiApp
 import home, theory, result, help_page, data_col # import your app modules here
 
+# for hiding the footer that says "made with streamlit"
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
+st.markdown( # for making the word ABOUT large font-size
+    """
+<style>
+.streamlit-expanderHeader {
+    font-size: x-large;
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+
 app = MultiApp()
 st.set_page_config(
         page_title="Riverbank Filtration Online Tool",
@@ -19,6 +41,11 @@ app.add_app("Results", result.app)
 app.add_app("Case Study", help_page.app)
 
 
+st.sidebar.write("##")
+st.sidebar.write("##")
+st.sidebar.write("##")
+st.sidebar.write("##")
+st.sidebar.write("##")
 st.sidebar.write("##")
 
 with st.sidebar.expander("About"):
