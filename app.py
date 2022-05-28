@@ -4,7 +4,6 @@ import home, theory, result, help_page, data_col # import your app modules here
 
 
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 st.markdown(
     """
