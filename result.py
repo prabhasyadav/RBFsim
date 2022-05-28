@@ -35,7 +35,7 @@ def app():
 
 	#st.sidebar.markdown('---')
 	
-	st.title("Results According to Entered Values:")
+	st.title("Results and visualizations:")
 
 	st.markdown("---")
 
