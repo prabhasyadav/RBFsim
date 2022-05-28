@@ -18,5 +18,13 @@ app.add_app("Data Collection", data_col.app)
 app.add_app("Results", result.app)
 app.add_app("Case Study", help_page.app)
 
+
+    st.sidebar.header("About")
+    st.sidebar.warning(
+            """
+            The app is licensed under CC-by-4.0
+            """
+    )
+
 # The main app
 app.run()
