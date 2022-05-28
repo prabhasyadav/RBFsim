@@ -2,17 +2,10 @@ import streamlit as st
 from multiapp import MultiApp
 import home, theory, result, help_page, data_col # import your app modules here
 
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 app = MultiApp()
 st.set_page_config(
-        page_title="Riverbank Filtration Online Tool",
+        page_title="Riverbank Filtration tool **_RBFsim_**",
         layout="wide",
 
         )
@@ -26,13 +19,6 @@ app.add_app("Data Collection", data_col.app)
 app.add_app("Results", result.app)
 app.add_app("Case Study", help_page.app)
 
-
-st.sidebar.write("##")
-st.sidebar.write("##")
-st.sidebar.write("##")
-st.sidebar.write("##")
-st.sidebar.write("##")
-st.sidebar.write("##")
 
 with st.sidebar.expander("About"):
      st.warning("""
