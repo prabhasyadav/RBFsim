@@ -18,7 +18,7 @@ app.add_app("Data Collection", data_col.app)
 app.add_app("Results", result.app)
 app.add_app("Case Study", help_page.app)
 
----
+
 
 
 st.sidebar.footer("About")
