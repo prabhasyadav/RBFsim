@@ -5,16 +5,7 @@ import home, theory, result, help_page, data_col # import your app modules here
 
 
 
-st.markdown(
-    """
-<style>
-.streamlit-expanderHeader {
-    font-size: x-large;
-}
-</style>
-""",
-    unsafe_allow_html=True,
-)
+
 
 
 app = MultiApp()
