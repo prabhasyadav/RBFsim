@@ -1,7 +1,10 @@
 import streamlit as st
 
 def app():
-    st.title('River Bank Filtration:')
+    st.title('The River Bank Filtration Tool: **_RBFsim_**')
+    
+    st.write("##")
+    
     st.markdown("""
     Riverbank filtration (RBF) can be considered as suitable alternative to direct groundwater (GW)
     abstraction for drinking water production. Surface water (SW) is infiltrating into the aquifer and
@@ -10,9 +13,6 @@ def app():
     successfully implemented in several countries including Germany, the development of this
     system including its sustainable application requires careful and precise planning. Of particular
     importance are aquifer-well interactions and GW-SW interaction through the riverbed.
-    
-    
-
     """)
 
     
