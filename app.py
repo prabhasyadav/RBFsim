@@ -2,17 +2,11 @@ import streamlit as st
 from multiapp import MultiApp
 import home, theory, result, help_page, data_col # import your app modules here
 
-# for hiding the footer that says "made with streamlit"
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
+
 
 st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
-st.markdown( # for making the word ABOUT large font-size
+st.markdown(
     """
 <style>
 .streamlit-expanderHeader {
