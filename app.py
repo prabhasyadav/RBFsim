@@ -2,11 +2,13 @@ import streamlit as st
 from multiapp import MultiApp
 import home, theory, result, help_page, data_col # import your app modules here
 
-
-
-
-
-
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
 
 app = MultiApp()
 st.set_page_config(
