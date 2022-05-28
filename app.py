@@ -21,12 +21,7 @@ app.add_app("Case Study", help_page.app)
 
 
 
-st.sidebar.footer("About")
-st.sidebar.warning(
-  """
-The app is cc-by-4.0 licensed
-  """
-)
+
 
 # The main app
 app.run()
