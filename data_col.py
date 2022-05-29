@@ -15,7 +15,7 @@ from db_fxns_aq import create_table_clg,view_all_data_clg,add_data_clg,view_uniq
 
 #-------------------------------------------------------------------------------NavBar-Ends------------------------------------------------------------------------------------------------------------
 def app():
-    st.title('Data Collection Interface:')
+    st.title('Data Input Interface:')
     st.markdown("---")
     #st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
     col1, col2 = st.columns(2)
