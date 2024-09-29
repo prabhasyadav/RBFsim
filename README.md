@@ -15,4 +15,5 @@ Following authors are credited for this version [![DOI](https://zenodo.org/badge
 
 ## References
 
-- Coming up
+Yadav, P. K., V. Batheja, A. Köhler, V. Cantarella, M. Tufail, C. Werth, and T. Grischek. 2024. RBFsim – A tool for early planning stage of riverbank filtration systems. Sustainable Water Resources Management 10, no. 5: 167, https://doi.org/10.1007/s40899-024-01137-9.
+
